@@ -1,11 +1,8 @@
 	
-SQL Assignment -1-30
-Write SQLs for the above questions.
-EX: 1) Display the details of all employees 
-    SQL:   Select * from employees
 
 
 
+//// assignment done
 
 
 1) Display the
@@ -47,7 +44,6 @@ who are working in depart number 10.
 
 select first_name from employees
 where department_id =10
-
 
 
 8) Display the names of all the employees
@@ -212,30 +208,10 @@ table.
 select avg(salary) from employees
 
 
-Select max(salary) from employees
-Where job_id in(select job_id from jobs
-Where job_title =’clerk’)
-
-Select max(salary) from employees
-Where department_id in(select department_id from jobs
-Where department_id=20)
-Select max(salary) from employees
-Where department_id=20
 
 
-Select min(salary) from employees
-Where job_id in(select job_id from jobs
-Where job_title =’slaesman’)
 
-Select avg(salary) from employees
-Where job_id in(select job_id from jobs
-Where job_title =’managers’)
 
-Select sum(salary) as total_salary from employees
-Where job_id in(select job_id from jobs where job_title=’analyst’) and department_id=40
-
-Select first_name,salary from employee
-Order by salary asec
 
 
 
